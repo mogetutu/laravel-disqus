@@ -13,10 +13,13 @@ First get your DISQUS shortname in your account setting page.
 
 
 ### Usage
+Add the below code into your bundle.php file if you want to autoload the bundle
 
-Add the below code into your view.
+    'laravel-disqus' => array('auto' => true),
 
-    Bundle::start('disqus');
+Add the below code into your controller.
+
+    Bundle::start('laravel-disqus');
     $disqus = new Disqus('short_name_goes_here');
     <!-- Generated HTML is called as below -->
     $disqus->get_html();
