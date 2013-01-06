@@ -11,6 +11,14 @@ A simple way to incorporate [DISQUS][1] into your Laravel application.
 
 First get your DISQUS shortname in your account setting page.
 
+### Installation
+
+You can install this bundle by running the following CLI command:
+
+```php
+    php artisan bundle:install laravel-disqus
+```
+
 ### Usage
 
 Add the below code into your ``application/bundles.php`` file if you want to autoload the bundle
