@@ -19,12 +19,12 @@ Add the below code into your ``application/bundles.php`` file if you want to aut
     'laravel-disqus' => array('auto' => true),
 ```
 Add the below code into your controller.
-
+```php
     Bundle::start('laravel-disqus');
     $disqus = new Disqus('short_name_goes_here');
-    <!-- Generated HTML is called as below -->
+    // Generated HTML is called as below
     $disqus->get_html();
-
+```
 This will embed the JavaScript which loads and displays DISQUS on your site.
 
 ## Endnote
