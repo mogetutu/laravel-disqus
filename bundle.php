@@ -1,3 +1,3 @@
 <?php
 
-return array('name' => 'disqus');
+return array('name' => 'laravel-disqus');
