@@ -11,12 +11,13 @@ A simple way to incorporate [DISQUS][1] into your Laravel application.
 
 First get your DISQUS shortname in your account setting page.
 
-
 ### Usage
-Add the below code into your bundle.php file if you want to autoload the bundle
 
+Add the below code into your ``application/bundles.php`` file if you want to autoload the bundle
+
+```php
     'laravel-disqus' => array('auto' => true),
-
+```
 Add the below code into your controller.
 
     Bundle::start('laravel-disqus');
