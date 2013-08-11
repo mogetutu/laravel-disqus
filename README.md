@@ -4,7 +4,7 @@ A simple way to incorporate [DISQUS][1] into your Laravel application.
 
 ## Requirements
 
-1. Laravel
+1. Laravel v3
 2. Disqus Account
 
 ## Documentation
